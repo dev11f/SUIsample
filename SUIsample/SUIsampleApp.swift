@@ -11,7 +11,12 @@ import SwiftUI
 struct SUIsampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            NavigationView {
+                ExpenseHome()
+                    .toolbar(.hidden)
+            }
+            
         }
     }
 }
